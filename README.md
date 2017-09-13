@@ -1,6 +1,6 @@
 # Base of Leads
 
-Through this guide you will install: 
+# Through this guide you will install: 
 
 Ruby (2.3.3 or higher)
 
@@ -15,7 +15,11 @@ Text Editor or IDE (SublimeText, Atom, Notepad++, Eclipse)
 Firefox 
 
 
-Browser Setup - Install FireFox
+# Requirements
+
+Step 1: Browser Setup - Install FireFox
+
+Step 2: Install Ruby, Cucumber, Selenium and other dependencies
 
 $> brew install ruby
 
@@ -27,3 +31,10 @@ $> gem install cucumber
 
 $> gem install rspec
 
+# How to test
+
+$> cucumber
+
+Cucumber can also write the results to a file in different formats: HTML, JSON, JUnit, etc.
+
+$> cucumber -f pretty -f html -o report.html
