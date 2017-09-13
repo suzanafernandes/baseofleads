@@ -1,5 +1,4 @@
 Feature: Insert Leads manually
-
 Scenario:  
 Given We navigate to page 'Base de Leads'
   When We click to insert Leads manually
