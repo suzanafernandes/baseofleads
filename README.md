@@ -13,8 +13,12 @@ Firefox
 Browser Setup - Install FireFox
 
 $> brew install ruby
+
 $> gem install bundler
+
 $> sudo gem install selenium-webdriver -v 3.2.1
+
 $> gem install cucumber
+
 $> gem install rspec
 
