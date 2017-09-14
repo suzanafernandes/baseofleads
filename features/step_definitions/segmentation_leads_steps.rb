@@ -1,7 +1,7 @@
-Feature: Segmentation of Leads
-Scenario:
-  Given(/^navigate to page Segmentation of Leads$/) do
-    When(/^We click on 'Segmentacao de Leads'$/) do
+Given(/^navigate to page Segmentation of Leads$/) do
+  driver.navigate.to "https://app-staging.rdstation.com.br/nova-segmentacao"
+end
+  When(/^We click on 'Segmentacao de Leads'$/) do
       click_link 'Segmentação de Leads'
   end
     When(/^We click on 'Criar Segmentacao'$/) do
