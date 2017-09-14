@@ -1,4 +1,6 @@
-# Base of Leads
+# Base of Leads And Segmentation of Leads
+
+- Created a directory with features, steps_definitions and hooks (CSV) for to import leads.
 
 # Through this guide you will install: 
 
