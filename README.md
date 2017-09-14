@@ -35,6 +35,4 @@ $> gem install rspec
 
 $> cucumber
 
-Cucumber can also write the results to a file in different formats: HTML, JSON, JUnit, etc.
-
 $> cucumber -f pretty -f html -o report.html
